@@ -49,7 +49,7 @@ class PathBall:
         self.color_index = color_index
         self.radius = 15
         self.progress = progress  # Прогресс по пути (0-1)
-        self.speed = 0.0005  # Скорость движения по пути
+        self.speed = 0.00015  # Скорость движения по пути
         self.x = 0
         self.y = 0
 
@@ -370,4 +370,5 @@ while True:
     game.draw()
 
     pygame.display.flip()
+
     clock.tick(FPS)
